@@ -6,7 +6,7 @@ sites_to_block= [' https://www.facebook.com/',' facebok.com',' www.facebook.com'
 print(dt.now())
 while True:
  if dt(dt.now().year, dt.now().month, dt.now().day,10)< dt.now()< dt(dt.now().year, dt.now().month, dt.now().day,23):
-  print("working hours! now social media allowed")
+  print("working hours! no social media allowed")
   with open(host_path,'r+') as file:
     content = file.read()
     print(content )
